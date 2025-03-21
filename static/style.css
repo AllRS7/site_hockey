@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.logout-button {
+    text-decoration: none;
+    color: white;
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.home-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.news-item:hover {
+    transform: scale(1.02);
+}
+
+.news-subtitle {
+    color: #555;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.news-content {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.news-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.teams-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* можно использовать любой красивый шрифт */
+}
+
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* редактируйте размер плитки */
+    gap: 20px; /* пространство между плитками */
+}
+
+.team-card {
+    background: #fff; /* фоновый цвет карточки */
+    border-radius: 8px; /* округленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* тень для карточки */
+    overflow: hidden; /* обрезка содержимого по краям */
+    transition: transform 0.2s; /* анимация при наведении */
+}
+
+.team-card:hover {
+    transform: translateY(-5px); /* поднимаем карточку при наведении */
+}
+
+.team-logo {
+    width: 100%; /* максимальная ширина изображения */
+    height: auto; /* автоматическая высота */
+    object-fit: cover; /* обрезка изобажения сохраняет соотношение сторон */
+}
+
+.team-info {
+    padding: 15px; /* отступы внутри карточки */
+    text-align: center; /* центрируем текст */
+}
+
+.team-name {
+    font-size: 1.5em; /* размер шрифта */
+    margin: 10px 0; /* отступ сверху и снизу */
+    color: #333; /* цвет шрифта */
+}
+
+.team-description {
+    font-size: 1em; /* размер шрифта описания */
+    color: #666; /* цвет описания */
+    margin: 0; /* убираем отступы */
+}
+
+
+.players-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.player-card {
+    background: #fff; /* фон карточки */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-photo {
+    width: 100%; /* максимально возможная ширина */
+    height: auto; /* автоматическая высота */
+    object-fit: cover;
+}
+
+.player-info {
+    padding: 15px; /* паддинг внутри карточки */
+    text-align: left; /* выравнивание текста влево */
+}
+
+.player-name {
+    font-size: 1.5em; /* размер шрифта имени */
+    margin: 10px 0;
+    color: #333; /* цвет текста */
+}
+
+.player-details {
+    width: 100%; /* ширина таблицы */
+    border-collapse: collapse; /* объединяем границы */
+}
+
+.player-details th,
+.player-details td {padding: 8px; /* внутренние отступы */
+    border: 1px solid #ccc; /* граница ячеек */
+    text-align: left; /* выравнивание текста влево */
+}
+
+.player-details th {
+    background: #f9f9f9; /* цвет фона заголовков */
+}
+
+
+
+

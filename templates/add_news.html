@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add News</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h2>Добавить новость</h2>
+    <form action="/add_news" method="post" enctype="multipart/form-data">
+        <label for="title">Заголовок:</label>
+        <input type="text" name="title" id="title" required><br>
+
+        <label for="content">Содержание:</label>
+        <textarea name="content" id="content" required></textarea><br>
+
+        <label for="image">Изображение:</label>
+        <input type="file" name="image" id="image"><br>
+
+        <button type="submit">Добавить новость</button>
+    </form>
+</body>
+</html>
